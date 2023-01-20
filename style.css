@@ -56,3 +56,42 @@ button {
     border: none;
     border-radius: 8px;
 }
+
+
+/* Info Section */
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.info-container img,
+figure {
+    width: 175px;
+}
+
+figure {
+    margin-bottom: 100px;
+}
+
+.info-container img {
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+figcaption {
+    color: #4B5563;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+/**/
