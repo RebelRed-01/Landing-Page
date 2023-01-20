@@ -1,0 +1,58 @@
+header,
+footer {
+    background-color: #1f2937;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 20px 150px;
+    font-size: 18px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 0px 15px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 20px 150px;
+}
+
+
+/* Hero */
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+section.hero {
+    display: flex;
+    padding: 50px 150px;
+    gap: 80px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+}
