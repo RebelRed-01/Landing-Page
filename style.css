@@ -144,3 +144,12 @@ figcaption {
     border: 2px solid #f9faf8;
     margin: 0;
 }
+
+
+/*Footer*/
+footer {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px;
+}
