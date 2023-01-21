@@ -45,14 +45,15 @@ h1 {
 section.hero {
     display: flex;
     padding: 50px 150px;
-    gap: 80px;
+    gap: 75px;
+    padding-bottom: 100px;
 }
 
 button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 10px 30px;
-    margin-top: 20px;
+    margin-top: 25px;
     border: none;
     border-radius: 8px;
 }
@@ -94,4 +95,22 @@ figcaption {
     padding: 10px 5px;
 }
 
-/**/
+/*Testimonial Section*/
+.testimonial {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    padding: 150px 200px 100px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px 45px;
+}
