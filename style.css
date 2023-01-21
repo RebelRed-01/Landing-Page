@@ -52,10 +52,11 @@ section.hero {
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 10px 30px;
+    font-size: 18px;
+    padding: 7px 35px;
     margin-top: 25px;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 
@@ -113,4 +114,33 @@ figcaption {
     font-weight: bold;
     font-size: 24px;
     padding: 15px 45px;
+}
+
+
+/*Call to Action*/
+
+.banner {
+    background-color: #3882f6;
+    margin: 100px 150px;
+    border-radius: 10px;
+    padding: 50px 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.banner button {
+    border: 2px solid #f9faf8;
+    margin: 0;
 }
